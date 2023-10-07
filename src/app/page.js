@@ -14,15 +14,14 @@ export default function Home() {
             href="about"
             rel="noopener noreferrer"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            About
+          </a>
+          <a
+            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            href="home"
+            rel="noopener noreferrer"
+          >
+            Home
           </a>
         </div>
       </div>
